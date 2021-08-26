@@ -36,13 +36,19 @@
 # else
 #   echo "話を聞いていましたか？"
 # fi
+#echo "そういえばif文は[]を利用しています"
 
 # case文の利用
-echo "次はcase文を利用します、結果は同じに見えますが処理が異なります。さっそくhogeと打ち込んでください"
-read str
-echo "今回も3秒お待ちください";sleep 3
-case "$str" in
-  "hoge" ) echo "ないすhoge";;
-  "fuga" ) echo "えくせれんとfuga";;
-  * ) echo "話を聞いていましたか？";;
-esac
+# echo "次はcase文を利用します、結果は同じに見えますが処理が異なります。さっそくhogeと打ち込んでください"
+# read str
+# echo "今回も3秒お待ちください";sleep 3
+# case "$str" in
+#   "hoge" ) echo "ないすhoge";;
+#   "fuga" ) echo "えくせれんとfuga";;
+#   * ) echo "話を聞いていましたか？";;
+# esac
+
+# for文ループ処理の利用
+# 
+
+
