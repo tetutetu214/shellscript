@@ -7,6 +7,7 @@ if  [ -d ./lesson_bash ]; then
 else
   mkdir lesson_bash
 fi
+
 echo "ls -l と打ち込んでください。lesson_bashというディレクトリが表示されていることを確認してください"
 read opt
 $opt
