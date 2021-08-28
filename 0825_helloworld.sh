@@ -77,5 +77,6 @@ echo "検索中です"; sleep 3
 if grep 'hoge' hogefile.txt; then
   echo "hoge found.見つかったよやったね！"
 fi
+
 echo "最後に終了ステータスをしていきます。お疲れ様でした。"; sleep 2
 echo "終了です"; $?
