@@ -34,3 +34,9 @@ Start_End_Proc(){
 echo -e "プロセスを開始・終了します\n開始の場合は”0”を、終了の場合は”1”を打ち込んでください"
 read int
 Start_End_Proc $int
+
+if [ $# -eq 0 ]; then
+  echo "入力した値は${#}です"
+else
+  echo "0以外の数値です"
+fi
