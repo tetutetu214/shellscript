@@ -40,3 +40,4 @@ if [ $# -eq 0 ]; then
 else
   echo "0以外の数値です"
 fi
+
